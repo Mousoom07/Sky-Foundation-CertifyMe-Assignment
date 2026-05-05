@@ -1,4 +1,4 @@
-const API_BASE = '';
+const API_BASE = 'https://sky-foundation-certifyme-assignment-2.onrender.com';
 const captchas = { login: '', signup: '', forgot: '' };
 function generateCaptcha(type) {
     const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789';
